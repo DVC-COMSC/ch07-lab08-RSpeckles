@@ -9,6 +9,8 @@ for i in range(len(numbers)):
 
 num = int(input("Enter another number: "))
 
+flag = 0
+
 for i in range(5):
     if numbers[i] > num:
         numbers.insert(i, num)
